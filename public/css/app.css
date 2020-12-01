@@ -1,0 +1,49 @@
+html,
+body,
+#app {
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+  min-height: 100%;
+}
+
+a,
+a:hover {
+  color: #c53e76;
+  text-decoration: none;
+}
+
+.mdl-group .help-block {
+  color: #cc0000;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  box-shadow: 0 0 0 30px white inset !important;
+}
+
+/*Change text in autofill textbox*/
+
+input:-webkit-autofill {
+  -webkit-text-fill-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.alert {
+  border-radius: 0px;
+  border-left-style: none;
+  border-right-style: none;
+}
+
+.alert.alert-danger {
+  background-color: inherit;
+  border-color: #cc0000;
+  color: #cc0000;
+}
+
+.alert.alert-success {
+  background-color: inherit;
+  border-color: #38c172;
+  color: #38c172;
+}
+
